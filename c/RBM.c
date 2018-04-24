@@ -215,6 +215,7 @@ void test_rbm(void) {
   // construct RBM
   RBM rbm;
   RBM__construct(&rbm, train_N, n_visible, n_hidden, NULL, NULL, NULL);
+  printf("call RBM__construct succ!\n");
 
   // train
   for(epoch=0; epoch<training_epochs; epoch++) {
