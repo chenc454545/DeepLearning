@@ -165,6 +165,6 @@ void test_lr(void) {
 
 int main(void) {
   test_lr();
-  
+  //independent testing  
   return 0;
 }
